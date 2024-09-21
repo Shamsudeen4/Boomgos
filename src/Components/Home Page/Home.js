@@ -1,12 +1,12 @@
 import React from 'react'
 import Navbar from '../Navbar'
-import Hero from './Hero'
+import Allpages from '../Merchants/Allpages'
 
 function Home() {
   return (
     <div>
         <Navbar home = "active"/>
-        <Hero/>
+        <Allpages/>
 
     </div>
   )
