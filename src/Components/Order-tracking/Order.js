@@ -1,14 +1,14 @@
 import React from 'react'
 import Navbar from '../Navbar'
-import Order from '../Order-tracking/Order'
+import OrderPage from '../Order-tracking/OrderPage'
 
-function Home() {
+const Order = () => {
   return (
     <div>
         <Navbar home = "active"/>
-        
+        <OrderPage />
     </div>
   )
 }
 
-export default Home
+export default Order
